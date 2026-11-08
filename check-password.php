@@ -1,6 +1,6 @@
 <?php
 
-$hash = '$2y$10$HNfhClczEWBxcFuJwP53iu2Y75Tba7IEtmX8vX.1tp0dZ5EVt9CbO';
+$hash = '$2y$10$lGOSK3DlQ5RD5x3IHsM0jO1cAv1ffkjHPqLz32XQVaxbIatYtePbu';
 
 if (password_verify('123', $hash)) {
     echo "Password 123 is correct!";

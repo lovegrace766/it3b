@@ -19,7 +19,7 @@
             user_id,
             user_email,
             activity_log_action,
-            action_log_status,
+            activity_log_status,
             activity_log_ip_address,
             activity_log_user_agent
             ) VALUES (?,?,?,?,?,?)

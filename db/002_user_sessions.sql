@@ -1,4 +1,4 @@
-CREATE TABLE user_sessions(
+CREATE TABLE IF NOT EXISTS user_sessions(
     -- Sessions id to be used in dashboards and references 
     session_id INT AUTO_INCREMENT PRIMARY KEY,
 

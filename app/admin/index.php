@@ -338,7 +338,7 @@ body {
                         </td>
 
                         <td>
-                            <?= htmlspecialchars($activity['action_log_status']) ?>
+                            <?= htmlspecialchars($activity['activity_log_status']) ?>
                         </td>
 
                         <td>

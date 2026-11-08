@@ -31,7 +31,7 @@ requireCsrfToken();
         // Log incomplete login attempt
             logActivity($pdo,$_SESSION['user_id'],$_SESSION['user_email'],'login','success');
 
-            echo 'Location: ' . BASE_URL . '/app/' . $_SESSION['user_role'] . '/index.php';
+            
             header('Location: ' . BASE_URL . '/app/' . $_SESSION['user_role'] . '/index.php');
             exit;
 
